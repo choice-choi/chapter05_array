@@ -1,6 +1,7 @@
 package org.joonzis.test;
 
 import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class test07 {
@@ -24,10 +25,10 @@ public class test07 {
 //			System.out.println(num);
 //		}
 		
-		int[] arr = new int[10];
-		
 		Scanner sc = new Scanner(System.in);
-				
+		int[] arr = new int[10];
+
+		// 입력
 		for(int i=0; i<=arr.length; i++) {
 			System.out.print(i + "번 인덱스 값 >> ");
 			arr[i] = sc.nextInt();
@@ -35,14 +36,13 @@ public class test07 {
 		
 		System.out.println(Arrays.toString(arr));
 				
-		
+		// 출력
 		for(int i=0; i<=arr.length; i++) {
 			if(arr[i] % 3 == 0) {
 				//3의 배수
 				System.out.println(arr[i]);
 			}
 		}
-		
+		sc.close();
 	}
-
 }

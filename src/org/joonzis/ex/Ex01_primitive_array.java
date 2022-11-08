@@ -33,7 +33,7 @@ public class Ex01_primitive_array {
 		System.out.println(arr2[2]);
 		
 		
-		// 에러_인데스 범위를 벗어난 요소(예외 발생)
+		// 에러_인덱스 범위를 벗어난 요소(예외 발생)
 		System.out.println(arr2[3]);
 		
 	}

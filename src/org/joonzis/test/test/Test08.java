@@ -22,7 +22,8 @@ public class Test08 {
 		
 		Scanner sc = new Scanner(System.in);
 		String[] names = {"김씨","이씨","박씨","최씨","정씨"};
-		int[] scores = new int[5];
+		int[] scores = new int[5];	// new 연산자를 사용해 scores 배열 객체를 생성
+		// 값의 목록은 없지만 향후 값들을 저장할 목적으로 배열을 미리 생성할 수 있다
 		
 		for(int i=0; i<scores.length; i++) {
 			System.out.print(names[i] + "의 점수 입력 >> ");

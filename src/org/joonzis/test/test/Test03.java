@@ -9,7 +9,8 @@ public class Test03 {
 		int sum = 0;
 		
 		for(int i=0; i<arr.length; i++) {
-			sum += arr[i];
+			sum += arr[i];	
+			// 0인 sum의 값에 배열 첫 번째인 10을 더한 값이 sum의 값이 될 수 있게 하는 코드
 //			sum = sum + arr[i];
 		}
 		System.out.println("배열의 총 합 : " + sum);
